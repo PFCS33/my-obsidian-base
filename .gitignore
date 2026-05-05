@@ -1,0 +1,16 @@
+# Machine-specific Obsidian state
+.obsidian/workspace.json
+.obsidian/workspace-mobile.json
+.obsidian/workspace*.json
+.obsidian/cache
+
+# Plugin runtime data (may contain tokens or local paths)
+.obsidian/plugins/*/data.json
+
+# OS junk
+.DS_Store
+Thumbs.db
+
+# Notes (template should stay empty)
+*.md
+!README.md
