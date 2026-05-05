@@ -20,6 +20,37 @@ and an empty folder structure — no notes.
 2. Open Obsidian, choose **Open folder as vault**, and pick the cloned
    directory.
 3. Trust the vault when prompted so community plugins can load.
+4. Work through the **Setup todos** below.
+
+## Setup todos
+
+These don't ship in the repo — install / configure manually on each new
+machine to fully reproduce the original vault experience.
+
+### External binaries
+
+- [ ] **pngquant** — used by the `image-converter` plugin for PNG
+  optimization. Plugin will silently skip optimization if missing.
+  - macOS: `brew install pngquant` (lands at `/opt/homebrew/bin/pngquant`)
+  - Linux: `apt install pngquant` or distro equivalent
+  - Windows: download from <https://pngquant.org/>
+  - After install, open Obsidian → Settings → Image Converter → set
+    `pngquant executable path` to the install location if it differs from
+    `/opt/homebrew/bin/pngquant`.
+
+- [ ] **ffmpeg** *(optional)* — `image-converter` can use it for video
+  thumbnails. The current config leaves the path blank, so set it only
+  if you want that feature.
+  - macOS: `brew install ffmpeg`
+
+### Obsidian-side
+
+- [ ] On first open, **trust the vault** so community plugins activate.
+- [ ] Verify the calendar plugin shows your daily-note source correctly
+  (under Full Calendar settings).
+- [ ] If you sync this vault across machines via Git, remember `.DS_Store`
+  and `workspace*.json` are ignored — pane layout won't follow you, and
+  that's intentional.
 
 ## What is *not* tracked
 
