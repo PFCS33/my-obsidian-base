@@ -7,8 +7,10 @@ and an empty folder structure — no notes.
 ## What's inside
 
 - `.obsidian/` — settings, installed plugins, themes, CSS snippets
-- Top-level folders (`1. Templates`, `2. Diary`, `3. InTags`, `4. Main`,
-  `5. Drafts`, `_Attachements`) — empty placeholders kept by `.gitkeep`
+- `1. Templates/` — note templates (tracked)
+- `2. Diary/`, `3. InTags/`, `4. Main/`, `5. Drafts/`, `_Attachements/` —
+  empty placeholders kept by `.gitkeep`. Daily-note year/month subfolders
+  under `2. Diary/` are created automatically by the daily-notes plugin.
 
 ## Bootstrap a new machine
 
@@ -69,5 +71,6 @@ for that one plugin if it carries credentials.
 ## Adding notes
 
 Notes (`*.md`) are gitignored on purpose so this template stays a clean
-scaffold. If you want to track a specific note here (e.g. this README),
-add it explicitly with `git add -f`.
+scaffold. The exceptions are `README.md` and anything inside
+`1. Templates/` — those are tracked. If you want to track a one-off
+note elsewhere, add it explicitly with `git add -f`.

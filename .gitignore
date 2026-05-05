@@ -11,3 +11,4 @@ Thumbs.db
 # Notes (template should stay empty)
 *.md
 !README.md
+!1. Templates/**/*.md
