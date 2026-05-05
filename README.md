@@ -54,16 +54,17 @@ machine to fully reproduce the original vault experience.
 
 ## What is *not* tracked
 
-The following are gitignored because they're machine-specific or may contain
-local paths / tokens:
+The following are gitignored because they're machine-specific:
 
 - `.obsidian/workspace*.json` — pane layout (rebuilds itself on first open)
 - `.obsidian/cache` — search index
-- `.obsidian/plugins/*/data.json` — per-plugin runtime state
 
-After cloning, some plugins (calendars, sync-style plugins, anything that
-authenticates) may need to be reconfigured or re-logged-in because their
-`data.json` is intentionally not shipped.
+Plugin `data.json` files **are** tracked — they hold most of your
+customization (themes, presets, calendar sources, etc.), and the current
+set was inspected and contains no secrets. If you later install a plugin
+that authenticates (Readwise, sync plugins, anything with API tokens),
+review its `data.json` before committing and add a targeted ignore line
+for that one plugin if it carries credentials.
 
 ## Adding notes
 
