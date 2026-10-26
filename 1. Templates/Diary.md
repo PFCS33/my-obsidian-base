@@ -3,12 +3,7 @@
 # Plans
 
 
-
-# Details
-
-
-
 # Drafts
 
 
-
+# Links
