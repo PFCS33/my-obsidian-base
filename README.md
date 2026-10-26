@@ -48,8 +48,6 @@ machine to fully reproduce the original vault experience.
 ### Obsidian-side
 
 - [ ] On first open, **trust the vault** so community plugins activate.
-- [ ] Verify the calendar plugin shows your daily-note source correctly
-  (under Full Calendar settings).
 - [ ] If you sync this vault across machines via Git, remember `.DS_Store`
   and `workspace*.json` are ignored — pane layout won't follow you, and
   that's intentional.

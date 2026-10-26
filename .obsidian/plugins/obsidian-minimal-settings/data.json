@@ -3,12 +3,10 @@
   "darkStyle": "minimal-dark",
   "lightScheme": "minimal-default-light",
   "darkScheme": "minimal-default-dark",
-  "editorFont": "",
   "lineHeight": 1.5,
   "lineWidth": 40,
   "lineWidthWide": 50,
   "maxWidth": 75,
-  "textNormal": 16,
   "textSmall": 13,
   "imgGrid": false,
   "imgWidth": "img-default-width",
@@ -30,5 +28,6 @@
   "folding": true,
   "lineNumbers": false,
   "readableLineLength": false,
+  "editorFont": "",
   "devBlockWidth": false
 }

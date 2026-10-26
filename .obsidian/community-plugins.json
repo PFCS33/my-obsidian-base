@@ -10,5 +10,6 @@
   "calendar",
   "image-converter",
   "oz-clear-unused-images",
-  "file-cleaner-redux"
+  "file-cleaner-redux",
+  "obsidian-smart-typography"
 ]
