@@ -1,6 +1,6 @@
 #dairy
 
-# Plan
+# Plans
 
 
 
@@ -8,7 +8,7 @@
 
 
 
-# Draft
+# Drafts
 
 
 
